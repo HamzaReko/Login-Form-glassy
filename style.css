@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  font-size: 15px;
+}
+* {
+  font-size: 1.4rem;
+}
+button {
+  all: unset;
+}
+.left-sec,
+.right-sec {
+  width: 50vw;
+}
+.left-sec {
+  margin-top: 50px;
+}
+
+main {
+  display: flex;
+}
+
+.first-container h1 {
+  font-size: 2rem;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+h2 {
+  font-weight: 500;
+}
+.first-container p {
+  font-size: 1.3rem !important;
+  word-spacing: 2px;
+  margin: 0;
+  color: gray;
+}
+form input {
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 0;
+  background-color: rgba(249, 210, 252, 0.438);
+  margin: 10px 0px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px 0px 15px 45px;
+  /* padding-bottom: 15px; */
+  width: 70%;
+}
+form input::placeholder {
+  font-size: 15px;
+  color: black;
+  padding: 0 !important;
+}
+input:focus::placeholder {
+  color: transparent;
+}
+.f-input,
+.s-input {
+  padding: 0;
+}
+form label {
+  position: relative;
+}
+
+form label span {
+  position: absolute;
+  top: 60%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+form button {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  color: white;
+  font-size: 1rem;
+  padding: 15px 20px;
+  border-radius: 20px;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  background-size: 100% 90px;
+  background-position: 0 -30px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  background-image: -moz-linear-gradient(top, blueviolet, rgb(184, 123, 241));
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#8a2be2), to(#b87bf1));
+  background-image: -webkit-linear-gradient(top, #8a2be2, #b87bf1);
+  background-image: -o-linear-gradient(top, #8a2be2, #b87bf1);
+  background-image: linear-gradient(to bottom, #8a2be2, #b87bf1);
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+}
+form button:hover {
+
+  background-position: 0 0;
+  cursor: pointer;
+}
+
+.lines::before {
+  background-color: rgb(160, 160, 160);
+  margin-right: 10px;
+  color: red;
+  width: 100px;
+  content: "";
+  height: 3px;
+  opacity: 0.5;
+}
+.lines::after {
+  background-color: rgb(160, 160, 160);
+  margin-left: 10px;
+  width: 100px;
+  content: "";
+  opacity: 0.5;
+  height: 3px;
+}
+.lines {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.sec-container img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.6rem;
+}
+.sec-container button {
+  border-radius: 20px;
+  border: 1px solid rgb(160, 160, 160);
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0.5rem 5rem;
+  margin-bottom: 1rem;
+}
+.google {
+  width: 2rem !important;
+  height: 2rem !important;
+}
+.sec-container button:hover {
+  background-color: rgb(207, 207, 207);
+}
+.sec-container button p,
+.sec-container button strong {
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+.facebutton {
+  height: 1.8rem;
+  padding: 0.5rem 4.7rem !important;
+  margin-bottom: 1.5rem !important;
+}
+.right-sec {
+  background-image: url("2image.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main-container {
+  background: rgba(167, 153, 231, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 40px;
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  width: 30vw;
+  height: 80vh;
+  display: flex;
+  position: relative;
+}
+.text {
+  color: white;
+  font-weight: 700;
+  height: 50vh;
+  width: 15vw;
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 20px;
+  z-index: 1400;
+  font-size: 2rem;
+}
+.man {
+  width: 15vw;
+  height: 75vh;
+}
+.man img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  left: 20px;
+}
+.light-cont{
+ position: relative;
+
+}
+.light img{
+  width: 9rem;
+  height: 7rem;
+}
+.light{
+  position: absolute;
+  top: 340px;
+  right: -70px;
+  z-index: 1;
+}
+@media (max-width: 700px) {
+  .right-sec {
+    display: none;
+  }
+  .left-sec {
+    width: 100vw;
+  }
+  html {
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 1rem !important;
+  }
+  h2 strong {
+    font-size: 1.2rem !important;
+  }
+}
+@media (max-width: 1096px){
+  html {
+    font-size: 20px;
+  }
+  .right-sec {
+    display: none;
+  }
+  .left-sec {
+    width: 100vw;
+  }
+}
